@@ -1,0 +1,69 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
+<!-- pug: https://pugjs.org/ -->
+<!-- haml: http://haml.info/ -->
+<!-- hbs(handlebars): http://handlebarsjs.com/ -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Image Search Abstraction Layer</title>
+    <meta name="description" content="A free code camp api project">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+        Image Search Abstraction Layer --a Free Code Camp API project
+      </h1>
+    </header>
+
+    <main>
+      
+        
+      
+      <p class="bold">Ohio/Northern Kentucky Local History Combined Custom Image Search</p>
+      
+      <p>
+        This search engine uses Google Custom Search for the search API and indexes a few OH/KY local history photo databases 
+        provided by various libraries and historical organizations.
+      </p>
+      <h4>Searching for Image Data</h4> 
+      <p>
+        Search in this format</p><p> <code>https://sunset-cost.glitch.me/imagesearch/your search string/?offset=1</code> 
+      </p><p> replacing the words your search string with your choice of search terms.  Offset is optional and allows you to choose page number.  You may also leave it blank for the first ten results
+      </p>
+      <p>Returns JSON of Title, Snippet, Url, and image src for the custom search results.
+      I am not returning alt text because many sites do not seem to provide it, thus the Title 
+        and snippet which appear to provide most of the information available about these 
+        photos.</p>
+      <p>
+      This is not a really great search engine to look for Lolcats. 
+      However, if you want to get lots of results, searching 'flood' will do it. 
+      Other great searches: 'building','steamboat', and for a little fun 'zoo'.
+      </p>
+      <h4>Searching the Search History Data</h4> 
+      <p>
+        You can also search like this to obtain data about the most recent searches performed</p>
+      <p> 
+        <code>https://sunset-cost.glitch.me/recent/?offset=1</code> 
+      </p>
+      <p>Offset is optional and allows you to choose results further in the set.  
+      You may also leave it blank for the first ten results
+      </p>
+      
+    </main>
+
+
+
+    
+
+  </body>
+</html>

@@ -1,0 +1,49 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+html { 
+  background: white; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-image: linear-gradient(to left, rgba(0,0,0,0.0) 0%,rgba(0,0,0,0.9) 100%), url(http://res.cloudinary.com/db8ctqbcb/image/upload/v1504541707/default_r2psdw.jpg);
+ }
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  color: white;
+  margin: 25px;  
+}
+
+h1 {
+  font-weight: bold;
+  background-color:#993366;
+  color: white;
+  padding: 1.5em;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+main {
+  width: 600px;
+  background: linear-gradient(to left, rgba(57, 19, 38, 0.1)0%, rgba(0,0,0,0.9) 100%);
+  padding: 1em;  
+}
+
+p {  
+  max-width: 600px;  
+}
+
+code {
+  font-weight: bold;
+  background: black;
+  color: lightgreen;
+  padding: .5em;
+}
